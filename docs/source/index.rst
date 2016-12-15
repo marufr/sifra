@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to SIFRA documentation
-******************************
+SIFRA documentation
+*******************
 
-:Release: |release|
+https://github.com/GeoscienceAustralia/sifra | **Release:** |release|
 
 SIFRA is a **System for Infrastructure Facility Resilience Analysis**.
 It comprises a method and software tools that provide a framework
@@ -18,7 +18,8 @@ designed to work with earthquake hazards only. SIFRA was developed in
 agency's vision to contribute to enhancing the resilience of communities
 in Australia and its region.
 
-The following are some key features of SIFRA:
+Feature Highlights
+==================
 
 - **Written in Python:** |br|
   It is written in Python, and there is no

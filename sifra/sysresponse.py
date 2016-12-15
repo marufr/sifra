@@ -29,6 +29,12 @@ A tool for seismic performance analysis of infrastructure facilities
 """
 
 from __future__ import print_function
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
+from sifraclasses import *
+
 import os
 import sys
 import cPickle
@@ -39,11 +45,8 @@ import scipy.stats as stats
 import pandas as pd
 import parmap
 
-import matplotlib.pyplot as plt
 import seaborn as sns
 from colorama import Fore
-
-from sifraclasses import Scenario, PowerStation, PotableWaterTreatmentPlant
 
 SETUPFILE = None
 
